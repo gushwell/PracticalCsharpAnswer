@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ballSports>
+    <ballsport>
+        <name kanji="籠球">バスケットボール</name>
+        <teammembers>5</teammembers>
+        <firstplayed>1891</firstplayed>
+    </ballsport>
+    <ballsport>
+        <name kanji="排球">バレーボール</name>
+        <teammembers>6</teammembers>
+        <firstplayed>1895</firstplayed>
+    </ballsport>
+    <ballsport>
+        <name kanji="野球">ベースボール</name>
+        <teammembers>9</teammembers>
+        <firstplayed>1846</firstplayed>
+    </ballsport>
+</ballSports>

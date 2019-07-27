@@ -1,0 +1,20 @@
+﻿### ２-１-９:定数を定義する
+
+　FeetConverterクラスには、０.３０８４というリテラル数値が２回出現しています。
+const定義することで、０.３０８４という数値を１カ所に集約しましょう。
+これで、ratioを参照している部分は、ビルドしたときに０.３０８４に置き換えられコードの中に埋め込まれます。
+
+
+##### リスト２－１０:定数を導入したFeetConverterクラス
+
+    public static class FeetConverter {
+       private const double ratio = 0.3048;  〈←定数ratioを定義〉
+
+       public static double FromMeter(double meter) {
+          return meter / ratio;
+       }
+
+       public static double ToMeter(double feet) {
+          return feet * ratio;
+       }
+    }
