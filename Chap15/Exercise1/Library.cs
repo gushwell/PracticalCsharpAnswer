@@ -45,7 +45,7 @@ namespace Chapter15 {
             Books = new List<Book> {
                 new Book { Title = "Writing C# Solid Code", CategoryId = 1, Price = 2500, PublishedYear = 2016 },
                 new Book { Title = "C#開発指南", CategoryId = 1, Price = 3800, PublishedYear = 2014 },
-                new Book { Title = "Microsoft Visual C#再入門", CategoryId = 1, Price = 2780, PublishedYear = 2016 },
+                new Book { Title = "Visual C#再入門", CategoryId = 1, Price = 2780, PublishedYear = 2016 },
                 new Book { Title = "フレーズで学ぶC# Book", CategoryId = 1, Price = 2400, PublishedYear = 2016 },
                 new Book { Title = "TypeScript初級講座", CategoryId = 1, Price = 2500, PublishedYear = 2015 },
                 new Book { Title = "PowerShell 実践レシピ", CategoryId = 2, Price = 4200, PublishedYear = 2013 },
