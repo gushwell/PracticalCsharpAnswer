@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 14
-VisualStudioVersion = 14.0.25420.1
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.28803.202
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Chap01", "Chap01", "{E59FF48E-017A-4E2D-8E55-408BF8FB5DDF}"
 EndProject
@@ -136,6 +136,11 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Exercise1", "Chap01\Exercise1\Exercise1.csproj", "{912153DD-EC13-4DC5-92E1-E4707B4A41B2}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Exercise1WinForm", "Chap16\Exercise1WinForm\Exercise1WinForm.csproj", "{9709E919-93AB-4CB7-9579-74E80D2A8325}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{26DC9E43-0A46-4213-AD76-2EB92E8F7E62}"
+	ProjectSection(SolutionItems) = preProject
+		.gitignore = .gitignore
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -398,5 +403,8 @@ Global
 		{CDCF3A78-26AF-4B91-9AB4-F03DD438B8A4} = {E3B81CB5-CB07-4ACE-8DAA-EE79C41B38AF}
 		{912153DD-EC13-4DC5-92E1-E4707B4A41B2} = {E59FF48E-017A-4E2D-8E55-408BF8FB5DDF}
 		{9709E919-93AB-4CB7-9579-74E80D2A8325} = {5F763D3D-7761-48A1-A828-FF2E85294CB5}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {07802080-7859-40BB-8C39-DF176B19A193}
 	EndGlobalSection
 EndGlobal
